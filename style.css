@@ -1,18 +1,21 @@
 .welcome-section {
     text-align: center; /* Centraliza o texto */
     color: white; /* Cor do texto */
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
-    padding: 20px; /* Espaçamento interno */
+    background: linear-gradient(135deg, rgba(255, 0, 0, 0.7), rgba(0, 0, 0, 0.7)); /* Gradiente de fundo */
+    padding: 30px; /* Espaçamento interno */
     border-radius: 10px; /* Bordas arredondadas */
     margin-top: 20px; /* Espaçamento superior */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Sombra para destacar */
 }
 
 .welcome-section h1 {
-    font-size: 24px; /* Tamanho do título */
+    font-size: 36px; /* Tamanho do título */
     margin: 0; /* Remove margem padrão */
+    text-transform: uppercase; /* Deixa o texto em caixa alta */
+    letter-spacing: 2px; /* Espaçamento entre letras */
 }
 
 .welcome-section p {
-    font-size: 16px; /* Tamanho do parágrafo */
+    font-size: 18px; /* Tamanho do parágrafo */
     margin-top: 10px; /* Espaçamento acima do parágrafo */
 }

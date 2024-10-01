@@ -8,42 +8,33 @@ body {
 }
 
 header {
-    background-color: #990000; /* Tom mais escuro de vermelho */
-    padding: 20px;
+    background-color: #cc0000; /* Cor do cabeçalho mais escura */
+    padding: 20px; /* Preenchimento interno do cabeçalho */
 }
 
 nav ul {
-    list-style-type: none; /* Remove os marcadores da lista */
-    padding: 0; /* Remove preenchimento da lista */
+    list-style-type: none; /* Remove marcadores da lista */
+    padding: 0; /* Remove preenchimento padrão */
 }
 
 nav ul li {
-    display: inline; /* Exibe itens na horizontal */
-    margin: 0 15px; /* Espaçamento entre os itens */
+    display: inline; /* Exibe itens de navegação em linha */
+    margin: 0 15px; /* Margem entre itens */
 }
 
 nav a {
-    color: #ffffff; /* Cor do texto do menu */
-    text-decoration: none; /* Remove o sublinhado */
-    font-weight: bold; /* Deixa o texto em negrito */
-}
-
-nav a:hover {
-    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
-}
-
-main {
-    padding: 20px; /* Preenchimento do conteúdo principal */
+    color: #ffffff; /* Cor do texto do link */
+    text-decoration: none; /* Remove sublinhado */
 }
 
 h1 {
-    font-size: 2.5em; /* Tamanho da fonte do título */
-    margin-top: 20px; /* Margem superior do título */
+    font-size: 3em; /* Tamanho da fonte do título */
+    margin: 20px 0; /* Margens do título */
 }
 
 h2 {
     font-size: 2em; /* Tamanho da fonte dos subtítulos */
-    margin-top: 30px; /* Margem superior dos subtítulos */
+    margin-top: 30px; /* Margem superior do subtítulo */
 }
 
 p {
@@ -52,7 +43,16 @@ p {
 }
 
 footer {
-    margin-top: 40px; /* Margem superior do rodapé */
+    background-color: #990000; /* Cor de fundo do rodapé */
     padding: 10px; /* Preenchimento do rodapé */
-    background-color: #990000; /* Cor do fundo do rodapé */
+    position: relative; /* Permite que o rodapé permaneça no final */
+    bottom: 0; /* Coloca o rodapé na parte inferior */
+    width: 100%; /* Largura total do rodapé */
+}
+
+section {
+    padding: 20px; /* Preenchimento interno das seções */
+    border: 1px solid #ffffff; /* Borda branca nas seções */
+    margin: 20px 0; /* Margem entre seções */
+    border-radius: 5px; /* Cantos arredondados */
 }

@@ -1,0 +1,18 @@
+body {
+    background-color: #ff0000; /* Cor de fundo vermelha */
+    color: #ffffff; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte */
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens padrão */
+    padding: 0; /* Remove preenchimento padrão */
+}
+
+h1 {
+    font-size: 2.5em; /* Tamanho da fonte do título */
+    margin-top: 20px; /* Margem superior do título */
+}
+
+p {
+    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
+    margin: 10px; /* Margem dos parágrafos */
+}

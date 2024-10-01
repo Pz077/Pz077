@@ -1,58 +1,18 @@
-body {
-    background-color: #ff0000; /* Cor de fundo vermelha */
-    color: #ffffff; /* Texto branco */
-    font-family: Arial, sans-serif; /* Fonte */
+.welcome-section {
     text-align: center; /* Centraliza o texto */
-    margin: 0; /* Remove margens padrão */
-    padding: 0; /* Remove preenchimento padrão */
+    color: white; /* Cor do texto */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para destacar o texto */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin-top: 20px; /* Espaçamento superior */
 }
 
-header {
-    background-color: #cc0000; /* Cor do cabeçalho mais escura */
-    padding: 20px; /* Preenchimento interno do cabeçalho */
+.welcome-section h1 {
+    font-size: 24px; /* Tamanho do título */
+    margin: 0; /* Remove margem padrão */
 }
 
-nav ul {
-    list-style-type: none; /* Remove marcadores da lista */
-    padding: 0; /* Remove preenchimento padrão */
-}
-
-nav ul li {
-    display: inline; /* Exibe itens de navegação em linha */
-    margin: 0 15px; /* Margem entre itens */
-}
-
-nav a {
-    color: #ffffff; /* Cor do texto do link */
-    text-decoration: none; /* Remove sublinhado */
-}
-
-h1 {
-    font-size: 3em; /* Tamanho da fonte do título */
-    margin: 20px 0; /* Margens do título */
-}
-
-h2 {
-    font-size: 2em; /* Tamanho da fonte dos subtítulos */
-    margin-top: 30px; /* Margem superior do subtítulo */
-}
-
-p {
-    font-size: 1.2em; /* Tamanho da fonte dos parágrafos */
-    margin: 10px; /* Margem dos parágrafos */
-}
-
-footer {
-    background-color: #990000; /* Cor de fundo do rodapé */
-    padding: 10px; /* Preenchimento do rodapé */
-    position: relative; /* Permite que o rodapé permaneça no final */
-    bottom: 0; /* Coloca o rodapé na parte inferior */
-    width: 100%; /* Largura total do rodapé */
-}
-
-section {
-    padding: 20px; /* Preenchimento interno das seções */
-    border: 1px solid #ffffff; /* Borda branca nas seções */
-    margin: 20px 0; /* Margem entre seções */
-    border-radius: 5px; /* Cantos arredondados */
+.welcome-section p {
+    font-size: 16px; /* Tamanho do parágrafo */
+    margin-top: 10px; /* Espaçamento acima do parágrafo */
 }
